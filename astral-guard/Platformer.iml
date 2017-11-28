@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Platformer">
+    <configurations>
+      <configuration name="Platformer" pure-as="true" main-class="Platformer" output-file="Platformer.swf" output-folder="$MODULE_DIR$/../out/production/Platformer">
+        <dependencies target-player="24.0">
+          <entries>
+            <entry library-id="8d7601f3-fa3c-4ff2-a868-0e629d7ce765">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="0ec007fc-9202-4a30-91af-9095c434d139">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="06624d87-d64e-4d16-a06a-f6bdb63783c0">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="d29534ac-7e30-4551-b007-1a02b79133ce">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="stats" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="TweenColorMatrix" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="orion particles" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="greensock" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK_Compiler" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="true" />
+            <entry key="metadata.creator" value="ElionSea" />
+            <entry key="metadata.date" value="-advanced-telemetry=true" />
+            <entry key="metadata.language" value="russian" />
+            <entry key="metadata.title" value="Astral Guard" />
+          </map>
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK_Compiler" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="8d7601f3-fa3c-4ff2-a868-0e629d7ce765" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../out/production/Platformer/graphics" />
+          <root url="file://$MODULE_DIR$/../out/production/Platformer" />
+          <root url="file://$MODULE_DIR$/../src/graphics" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../src" />
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../out/production/Platformer" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../out/production/Platformer/graphics" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../src/graphics" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="0ec007fc-9202-4a30-91af-9095c434d139" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../src/graphics" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../src/graphics" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="06624d87-d64e-4d16-a06a-f6bdb63783c0" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../!!!!!!Adobe/Adobe Flash CS6/!Frameworks/greensock-as3/greensock-as3" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../../../../!!!!!!Adobe/Adobe Flash CS6/!Frameworks/greensock-as3/greensock-as3/docs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../../!!!!!!Adobe/Adobe Flash CS6/!Frameworks/greensock-as3/greensock-as3" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../../../!!!!!!Adobe/Adobe Flash CS6/!Frameworks/greensock-as3/greensock-as3" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="greensock" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="d29534ac-7e30-4551-b007-1a02b79133ce" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/graphics" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/src/graphics" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="stats" level="application" />
+    <orderEntry type="library" exported="" name="TweenColorMatrix" level="application" />
+    <orderEntry type="library" exported="" name="starling" level="application" />
+    <orderEntry type="library" exported="" name="orion particles" level="application" />
+  </component>
+</module>
+

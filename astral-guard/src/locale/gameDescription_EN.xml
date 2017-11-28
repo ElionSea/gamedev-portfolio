@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainN>
+    <guildScreen>
+        <tabAcademy>
+            <icons>
+                <iconManaRecovery   caption="Mana restoration" desc="Amount of mana, restored in 1 sec" cost=""/>
+                <iconHealthRecovery caption="Health restoration" desc="Amount of health, restored in 1 sec" cost=""/>
+                <iconManaAmount caption="Mana amount" desc="Total amount of mana" cost=""/>
+                <iconHealthAmount caption="Health amount" desc="Total amount of health" cost=""/>
+
+                <iconRainbow caption="SPELL 'VORTEX' " desc="Adds powerful shell group, which whirl around the wizard"/>
+                <iconFist caption="SPELL 'BUBBLE' " desc="Adds strong shield, which protect from the enemy damage"/>
+                <iconCrown caption="SPELL 'GOLDEN CROWN' " desc="Shoots by group of shells, which scatter in all directions"/>
+                <iconFreeze caption="SPELL 'FREEZING' " desc="Freezing all visible enemies"/>
+                <iconMine caption="SPELL 'PLASMOIDS' " desc="Adds five highly charged mines on the enemies path"/>
+            </icons>
+            <spells>
+                <up_rainbow_ caption="VORTEX - level " desc="Damage of each shell : "/>
+                <up_fist_ caption="BUBBLE - level " desc="Total charge of shield : "/>
+                <up_crown_ caption="GOLDEN CROWN - level " desc="Damage of each shell : "/>
+                <up_freeze_ caption="FREEZING - level " desc="Freezing time : "/>
+                <up_mine_ caption="PLASMOIDS - level " desc="Damage of each mine : "/>
+            </spells>
+            <increases>
+                <manaRecovery   caption="MANA RESTORATION" desc="amount of mana, restroted in 1 sec" cost=""/>
+                <healthRecovery caption="HEALTH RESTORATION" desc="amount of health, restored in 1 sec" cost=""/>
+                <manaAmount caption="MANA AMOUNT" desc="total amount of mana" cost=""/>
+                <healthAmount caption="HEALTH AMOUNT" desc="total amount of health" cost=""/>
+            </increases>
+        </tabAcademy>
+        <tabStore>
+            <runs>
+                <Shi_1 caption="SHI I" desc="Damage +" cost=""/>
+                <Shi_2 caption="SHI II" desc="Damage +" cost=""/>
+                <Shi_3 caption="SHI III" desc="Damage +" cost=""/>
+                <Shi_4 caption="SHI IV" desc="Damage +" cost=""/>
+                <Shi_5 caption="SHI V" desc="Damage +" cost=""/>
+
+                <Gen_1 caption="GEN I" desc="Enemy speed -" cost=""/>
+                <Gen_2 caption="GEN II" desc="Enemy speed -" cost=""/>
+                <Gen_3 caption="GEN III" desc="Enemy speed -" cost=""/>
+                <Gen_4 caption="GEN IV" desc="Enemy speed -" cost=""/>
+                <Gen_5 caption="GEN V" desc="Enemy speed -" cost=""/>
+
+                <Docu_1 caption="DOCU I" desc="Poisons +" cost=""/>
+                <Docu_2 caption="DOCU II" desc="Poisons +" cost=""/>
+                <Docu_3 caption="DOCU III" desc="Poisons +" cost=""/>
+                <Docu_4 caption="DOCU IV" desc="Poisons +" cost=""/>
+                <Docu_5 caption="DOCU V" desc="Poisons +" cost=""/>
+
+                <Tur_1 caption="TUR I" desc="Shell speed +" cost=""/>
+                <Tur_2 caption="TUR II" desc="Shell speed +" cost=""/>
+                <Tur_3 caption="TUR III" desc="Shell speed +" cost=""/>
+                <Tur_4 caption="TUR IV" desc="Shell speed +" cost=""/>
+                <Tur_5 caption="TUR V" desc="Shell speed +" cost=""/>
+
+                <Ryu caption="RYU" desc="increase amount of magic staff shells +1" cost=""/>
+            </runs>
+            <other>
+                <staffSlot_4 caption="STAFF SLOT" desc="adds new slot to magic staff"/>
+                <staffSlot_5 caption="STAFF SLOT" desc="adds new slot to magic staff"/>
+
+                <crystall_6 caption="LIGHT BLUE CRYSTAL" desc="changes magic staff shell's color to light blue"/>
+                <crystall_5 caption="PURPLE CRYSTAL" desc="changes magic staff shell's color to purple"/>
+                <crystall_4 caption="GREEN CRYSTAL" desc="changes magic staff shell's color to green"/>
+                <crystall_3 caption="BLUE CRYSTAL" desc="changes magic staff shell's color to blue"/>
+                <crystall_2 caption="RED CRYSTAL" desc="changes magic staff shell's color to red"/>
+                <crystall_1 caption="YELLOW CRYSTAL" desc="changes magic staff shell's color to yellow"/>
+
+                <magnet_1 caption="COIN MAGNET I" desc="draws all coins in within 1 meter. Just put it in your bag"/>
+                <magnet_2 caption="COIN MAGNET II" desc="draws all coins in within 3 meters. Just put it in your bag"/>
+                <magnet_3 caption="COIN MAGNET III" desc="draws all coins in within 5 meters. Just put it in your bag"/>
+            </other>
+            <coins>
+                <coinIcon caption="COINS" desc="Total amount of your coins"/>
+            </coins>
+            <otherIcons>
+                <btnPlayLevel caption="TELEPORT TO LEVEL" desc=""/>
+            </otherIcons>
+        </tabStore>
+        <tabStaff>
+            <staffIcons>
+                <staffInfo_damage caption="DAMAGE" desc="Total damage of each shell. Buy and install SHI rune to increase this parameter"/>
+                <staffInfo_amount caption="AMOUNT" desc="Total amount of shells issued at a time. Only energy of powerful monsters can increase this parameter"/>
+                <staffInfo_speed caption="SPEED" desc="Approximately speed of each shell. Buy and install TUR rune to increase this parameter"/>
+                <staffInfo_poison caption="POISON" desc="Amount of poison, which poisons enemy every sec. Buy and install DOCU rune to increase this parameter"/>
+                <staffInfo_slowing caption="SLOWING" desc="Slowing enemy factor. Buy and install GEN rune to increase this parameter"/>
+            </staffIcons>
+        </tabStaff>
+    </guildScreen>
+    <levelScreen>
+        <startGame>
+            <levels>
+                <castle caption="Ghost castle" desc="" color="0x0042CB" bossName="Ghost Head"/>
+                <swamp caption="Swamp" desc="" color="0x002A06" bossName="Swamp Keeper"/>
+                <bonus_level caption="Bonus level" desc="" color="0x002A06" bossName="Soul keeper"/>
+                <desert caption="Lost Desert" desc="" color="0xE5C900" bossName="Desert Wanderer"/>
+                <inner caption="Inner world" desc="" color="0xFF8A9C" bossName="Inner Lord"/>
+                <iceworld caption="Iceworld" desc="" color="0x001B89" bossName="Iceworld Keeper"/>
+                <volcano caption="Volcano" desc="" color="0xFFD30E" bossName="Fire Lord"/>
+            </levels>
+        </startGame>
+    </levelScreen>
+    <videoScreen>
+        <startGame>
+            <videoFrames>
+                <frame_1 description="Ancient prophecy says : ''The thirty-third eclipse of the sun from the beginning of New Era marked by the confluence of the worlds. Dark worlds will open their doors to start the Great Invasion..'' Only few believed that..." color="0x60b05b"/>
+                <frame_2 description="...One of those - Varlow Wise. The great and powerful wizard of New Era. In secret mountain caves he founded a special guild, whose task was to prepare for the Great Invasion as best as possible. This guild was named ''Astral Guard'' " color="0x7bc2ff"/>
+                <frame_3 description="From birth to death every member of the guild every day trained force, intelligence and magic skills from dawn to dusk. It was very powerful and wise people, none of whom have never betrayed their cause." color="0x872004"/>
+                <frame_4 description="Unfortunately this day has come. Thousands portals opened at the same time all over the world. Hordes of dark creatures rushed through them. The army and the militia could not contain offensive even one hour. Absolutely all panicked. Because no one believed in the prophecy and was not ready..." color="0x5679de"/>
+                <frame_5 description="Except us. My name is Zen - I'm a member of the Astral Guard. Goes 8 day of the Great Invasion. We have lost so much and so many. But we continue our resistance. And I believe that we stop this destruction..." color="0x47abbf"/>
+            </videoFrames>
+        </startGame>
+        <endGame>
+            <videoFrames>
+                <frame_1 description="we stop it ! we stop this horrible destruction ! The long-awaited peace came up.the sun is appearing and the darkness receded! i have always believed that we will be able to defend our world. it's too beautiful and gracious for to disappear into oblivion." color="0x23BBBF"/>
+            </videoFrames>
+        </endGame>
+    </videoScreen>
+    <achievementsScreen>
+        <icons>
+            <AbandonedSoul caption="Abandoned Soul" desc="Defeat the Ghost Head."/>
+            <SwampIntruder caption="Swamp Intruder" desc="Defeat the Swamp Keeper."/>
+            <SandyEye caption="Sandy Eye" desc="Defeat the Desert Wanderer."/>
+            <PowerOfVortex caption="Power of Vortex" desc="Use the Vortex spell 10 times."/>
+            <BuzzyGuard caption="Buzzy Guard" desc="Defeat the Inner Lord."/>
+            <IceSpike caption="Ice Spike" desc="Defeat the Iceworld Keeper."/>
+            <VolcanoTamer caption="Volcano Tamer" desc="Defeat the Fire Lord."/>
+            <PowerOfBubble caption="Power of Bubble" desc="Use the Bubble spell 10 times."/>
+            <Apprentice caption="Apprentice" desc="Defeat 100 enemies."/>
+            <Veteran caption="Veteran" desc="Defeat 400 enemies."/>
+            <AstralGuardian caption="Astral Guardian" desc="Defeat 1000 enemies."/>
+            <PowerOfGoldenCrown caption="Power of Golden Crown" desc="Use the Golden Crown spell 10 times."/>
+            <ChestHunterNovice caption="Chest Hunter Novice" desc="Knock down 20 chests."/>
+            <ChestHunterSkilled caption="Chest Hunter Skilled" desc="Knock down 40 chests."/>
+            <ChestHunterExpert caption="Chest Hunter Expert" desc="Knock down 60 chests."/>
+            <PowerOfFreezing caption="Power of Freezing" desc="Use the Freezing spell 10 times."/>
+            <Perfection caption="Perfection" desc="Increase all skills parameters."/>
+            <StaffBooster caption="Staff Booster" desc="Install 5 runes into your magic staff."/>
+            <Miser caption="Miser" desc="Collect and do not spend 5.000 of gold."/>
+            <PowerOfPlasmoids caption="Power of Plasmoids" desc="Use the Plasmoids spell 10 times."/>
+        </icons>
+    </achievementsScreen>
+</mainN>
