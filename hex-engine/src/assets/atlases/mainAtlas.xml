@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="mainAtlas.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="hexDebug"	x="45"	y="0"	width="44"	height="51" frameX="-0" frameY="-0" frameWidth="44" frameHeight="51"/>
+	<SubTexture name="hexEmpty"	x="0"	y="52"	width="44"	height="51" frameX="-0" frameY="-0" frameWidth="44" frameHeight="51"/>
+	<SubTexture name="hexFull"	x="0"	y="0"	width="44"	height="51" frameX="-0" frameY="-0" frameWidth="44" frameHeight="51"/>
+</TextureAtlas>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="hex-tetris">
+    <configurations>
+      <configuration name="hex-tetris" target-platform="Mobile" pure-as="true" main-class="Hextetris" output-file="Hextetris.swf" output-folder="$MODULE_DIR$/out/production/hex-tetris">
+        <dependencies target-player="20.0">
+          <entries>
+            <entry library-id="f2bd6203-8662-4de9-aa5d-b75c2f9e983d">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK_Compiler" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/.idea/application.xml" package-file-name="Hextetris" />
+        <packaging-ios package-file-name="Hextetris" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK_Compiler" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="starling" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="starling" type="flex">
+        <properties id="f2bd6203-8662-4de9-aa5d-b75c2f9e983d" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../soft/Gamua-Starling-Framework-110c2a5/starling/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../soft/Gamua-Starling-Framework-110c2a5/tests/src" />
+          <root url="file://$MODULE_DIR$/../../soft/Gamua-Starling-Framework-110c2a5/samples/demo/src" />
+          <root url="file://$MODULE_DIR$/../../soft/Gamua-Starling-Framework-110c2a5/samples/demo_web/src" />
+          <root url="file://$MODULE_DIR$/../../soft/Gamua-Starling-Framework-110c2a5/samples/demo_mobile/src" />
+          <root url="file://$MODULE_DIR$/../../soft/Gamua-Starling-Framework-110c2a5/samples/scaffold_mobile/src" />
+          <root url="file://$MODULE_DIR$/../../soft/Gamua-Starling-Framework-110c2a5/starling/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../soft/Gamua-Starling-Framework-110c2a5/starling/bin" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
